@@ -1,0 +1,90 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.parent{
+    background-color: rgb(138, 71, 26);
+    height: 11vh;
+    padding: 9px;
+}
+.logo{
+    color:#fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative; left: 24vh;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 19px;
+}
+nav ul li a:hover{
+color: #000;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container{
+    width: 50%;   
+    height:50vh;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 25px;
+    position: relative; left: 20vh; 
+    line-height: 60px;
+}
+.container input,label{
+display: flex;
+}
+.container input{
+    width: 40vh;
+}
+.btn-1,.btn-2{
+    background-color: rgb(138, 71, 26);
+    color: #fff;
+    border: solid 1px rgb(138, 71, 26);
+    padding: 5px; font-size: 15px; font-weight: 700;
+}
+.password,.link-1{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    background-color: rgb(138, 71, 26);
+    height: 50vh;
+    padding: 15px;
+}
+.footer{
+    height: 30vh;
+    background-color: rgb(138, 71, 26);
+    overflow-y: hidden;
+}
+.one a{
+color: #fff;
+}
+.one h4{
+    color: #fff;
+    line-height: 5vh;
+}
+.one {
+    position: relative; left: 30vh; 
+    cursor: pointer;
+}
+.two ,.three,.four,.five{
+    position: relative; left: 30vh;  bottom: 27vh;
+    cursor: pointer;
+}
+
+
